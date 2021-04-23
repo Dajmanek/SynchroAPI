@@ -1,0 +1,4 @@
+name: SynchroAPI
+version: 1.0
+api-version: 1.13
+main: net.dajman.synchro.SynchroAPI

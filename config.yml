@@ -1,0 +1,14 @@
+# # - SERVER - ustawiamy na true tylko w jednym z polaczanych serwerow
+# # - HOSTNAME - nazwa hosta (jesli serwery sa uruchomione na tej samej maszynie
+#      to zostawiamy localhost, w przeciwnym wypadku wpisujemy ip serwera glownego
+#      (tego z ustawioną wartoscia SERVER na true)
+# # - PORT - nr portu ktorym beda komunikowac sie serwery,
+#     mozna ustawic dowolny, musi byc taki sam na wszystkich serwerach
+
+SERVER: false
+HOSTNAME: 'localhost'
+PORT: 1999
+
+# Nazwa serwera, musi byc unikalna, inna na kazdym serwerze
+# Zostaw puste jesli ma byc przydzielone automatycznie
+SERVER_NAME: ''
