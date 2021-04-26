@@ -44,9 +44,6 @@ public class ListenerManager {
                     if (method.getAnnotationsByType(PacketHandler.class).length == 0){
                         continue;
                     }
-                    if (method.isSynthetic()){
-                        continue;
-                    }
                     if (!method.getParameterTypes()[0].equals(packet.getClass())){
                         continue;
                     }
@@ -70,7 +67,5 @@ public class ListenerManager {
             listener.onConnect();
         }
     }
-
-
 
 }
